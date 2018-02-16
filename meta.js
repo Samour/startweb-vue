@@ -132,7 +132,7 @@ module.exports = {
       when: 'isNotTest',
       type: 'confirm',
       message: 'Setup e2e tests with Nightwatch?',
-      default: 'N'
+      default: false
     },
     autoInstall: {
       when: 'isNotTest',
