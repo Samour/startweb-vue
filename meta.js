@@ -74,7 +74,7 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
-    lint: {
+    /*lint: {
       when: 'isNotTest',
       type: 'confirm',
       message: 'Use ESLint to lint your code?',
@@ -100,7 +100,7 @@ module.exports = {
           short: 'none',
         },
       ],
-    },
+    },*/
     unit: {
       when: 'isNotTest',
       type: 'confirm',
