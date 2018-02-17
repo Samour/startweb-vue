@@ -162,7 +162,7 @@ module.exports = {
     'config/test.env.js': 'unit || e2e',
     'build/webpack.test.conf.js': "unit && runner === 'karma'",
     'test/unit/specs/HelloWorld.spec.js': "unit && runner !== 'karma'",
-    'test/unit/specs/HelloWorld.spec.coffee': 'unit && runner === karma',
+    'test/unit/specs/HelloWorld.spec.coffee': "unit && runner === 'karma'",
     'test/unit/index.js': "unit && runner === 'karma'",
     'test/unit/jest.conf.js': "unit && runner === 'jest'",
     'test/unit/karma.conf.js': "unit && runner === 'karma'",
